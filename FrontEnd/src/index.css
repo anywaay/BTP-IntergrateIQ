@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.bggradient{
+    background-color: #000000;
+    /* background-image: linear-gradient(#5003b1, #0f062c); */
+    background-image: linear-gradient(45deg, #180350 0%, #020613 52%, #03055b 90%);
+}
+
+.inte{
+  background-image: linear-gradient(149deg, #2b117c, #11072f 49%, #10072d);
+}
+.navbarBg{
+  background-image: linear-gradient(149deg, #0c0521, #000323f7 49%, #0f0000);
+}
+.bginte{
+  background-image: linear-gradient(#0b0f54, #150254);
+}
+.cardgradient {
+        background-color: #0a0a0a;
+    background-image: linear-gradient(#5003b1, #270b84);
+        /* background-image: 
+          linear-gradient(132deg, rgba(16, 2, 35, 0) 0%, rgba(3, 3, 70, 0.6) 50%, rgba(9, 9, 37, 0) 100%),
+          linear-gradient(132deg, #100223 0%, #00002a94 100%); */
+          
+        backdrop-filter: blur(10px);
+        background-size: cover;
+        background-position: center;
+      }
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+}
+
+.chatbottext{
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(27deg, #6b41ff 29%, #f64cff 75%, #ffc553);
+  background-clip: text;
+} 
+
+.customtext{
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(95deg, #fff, #bfaaff 30%, #f64cff 61%, #ffc553);
+  background-clip: text;
+}
+
+.aicard{
+  background-color: #f5f5f5;
+}
+
+.demobutton {
+  background-image: linear-gradient(101deg, #6b41ff 27%, #f64cff 68%, #ffc553);
+}
+
+.demobutton:hover {
+  scale: 1.05;
+  background-image: linear-gradient(120deg, #6b41ff 78%, #8c2ffd 98%, #ffc553 100%);
+}
+
+.goldenbg{
+  background: linear-gradient(to right, #D4AF37, #FFD700, #FFC72C, #FFDF00, #B8860B);
+}
+
+.btn {
+  @apply text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+}
